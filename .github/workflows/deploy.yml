@@ -23,6 +23,9 @@ jobs:
       - run: npm run build
         env:
           NEXT_PUBLIC_BASE_PATH: /patel-nursing-home
+      - name: TEMPORARY - fix image paths for preview address
+        run: |
+          find out -type f \( -name "*.html" -o -name "*.js" -o -name "*.css" \) -exec perl -pi -e 's#(["\x27`(])/(img|fonts|css)/#$1/patel-nursing-home/$2/#g' {} +
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out
