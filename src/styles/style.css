@@ -1,0 +1,208 @@
+.text-main {
+  color: #d12421 !important;
+}
+.text-second {
+  color: #187bb2 !important;
+}
+.primary-bg-soft {
+  background-color: #dfe9fc !important;
+}
+.primary-bg {
+  background: #d12421 !important;
+}
+.secondary-bg {
+  background: #187bb2 !important;
+}
+
+.mail a {
+  color: rgb(85, 79, 79) !important;
+}
+
+.mail a:hover {
+  color: rgb(61, 61, 202) !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.link h3:hover,
+.link:hover h4 {
+  color: #187bb2 !important;
+}
+
+section h2 {
+  font: normal normal bold 44px/44px;
+  letter-spacing: 0px;
+  color: #187bb2 !important;
+  background-color: #d12421 !important;
+  /* background-image: linear-gradient(90deg, rgba(110, 120, 182, 1) 0%, rgba(76, 167, 164, 1) 100%); */
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.breadcrumbs {
+  position: relative;
+  background-image: url('/img/breadcrumb-bg.webp');
+  color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.breadcrumbs .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.breadcrumbs .box {
+  position: relative;
+  z-index: 2;
+}
+.breadcrumbs h1 {
+  color: white !important;
+}
+.widget-title {
+  color: white !important;
+}
+.nav-link:hover {
+  color: #187bb2 !important;
+}
+.navlink .active {
+  color: #187bb2 !important;
+}
+link .show {
+  color: #187bb2 !important;
+}
+
+.navbar-nav .nav-link .activate {
+  color: #187bb2 !important;
+}
+.nav-link :hover ::before {
+  color: #187bb2 !important;
+}
+
+.navbar-nav {
+  --bs-nav-link-hover-color: #187bb2 !important;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #187bb2 !important;
+}
+
+.sticky-wrapper {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+
+.is-sticky .navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* optional, for better visual effect */
+}
+
+.special-label {
+  display: none !important;
+}
+
+.navbar-clone {
+  top: 57px !important;
+}
+
+.topbar {
+  display: block;
+}
+
+.video-container video {
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  object-fit: cover;
+  z-index: -3;
+}
+.hero-bg {
+  background-color: rgba(15, 15, 15, 0.5);
+}
+.card {
+  transition: 0.3s all;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.contact-form .card:hover {
+  transform: translateY(0px);
+}
+.widget ul li a:hover {
+  color: #fff !important;
+  text-decoration: underline !important;
+}
+
+.cta h2 {
+  background-color: #ffff !important;
+}
+
+.bg-lights {
+  background-color: #f7f7f7 !important;
+}
+
+.bg-secondary-lt {
+  background-color: #d0e0ee;
+}
+.secondary-fill {
+  fill: #187bb2;
+}
+
+.grecaptcha-badge {
+  visibility: hidden;
+}
+
+.overflow-hidden {
+  overflow-x: hidden !important;
+}
+
+.contact-form1 {
+  background: #bde7ff !important;
+}
+
+.navbar-expand-lg.transparent:not(.fixed) {
+  padding-top: 0rem !important;
+}
+.navbar-clone {
+  padding-top: -0.3rem !important;
+}
+
+.navbar .navbar-collapse {
+  width: 16rem !important;
+}
+
+.footer-ai-icons{
+  display: flex;
+  gap: 10px;
+}
+
+.ai-btn{
+  background: transparent;
+  color: #fff;
+  border: 1px solid transparent;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.ai-btn:hover{
+  background: #fff;
+  border: 1px solid #fff;
+  color: #187bb2;
+}

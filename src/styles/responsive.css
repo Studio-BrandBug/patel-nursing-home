@@ -1,0 +1,56 @@
+@media (max-width: 992px) {
+  .offcavas-bg {
+    /* background-color: #8ABB2A !important; */
+    background: #187bb2;
+    /* background: linear-gradient(90deg, rgba(110, 120, 182, 1) 0%, rgba(76, 167, 164, 1) 100%); */
+  }
+
+  .navbar-expand-lg .navbar-brand {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .topbar {
+    display: none !important;
+  }
+
+  .navbar-clone {
+    top: 0px !important;
+  }
+
+  .sticky-wrapper {
+    position: relative !important;
+  }
+  .hero {
+    background-image: url('/img/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .hero-text {
+    max-width: 100% !important;
+    align-items: end;
+    justify-content: center;
+  }
+  .hero-text h1 {
+    font-size: 20px !important;
+  }
+  .hero-text h3 {
+    font-size: 18px !important;
+  }
+  .hero-text p {
+    font-size: 16px !important;
+  }
+  .hero-text .btn {
+    padding: 8px !important;
+    margin-bottom: 10px;
+  }
+  .hero-text p {
+    text-align: center;
+  }
+  img,
+  svg {
+    vertical-align: bottom !important;
+  }
+}
