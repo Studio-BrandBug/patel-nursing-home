@@ -12,8 +12,6 @@ import isEmail from 'validator/lib/isEmail';
 
 const ContactForm = () => {
   const router = useRouter();
-  const to_email = 'pnhandheri@gmail.com ';
-  const cc_email = 'arkayappsseo@gmail.com,sales@arkayapps.com';
   const title = `Website Contact Form`;
   const subject = `Contact - Patel Nursing Home`;
   const [error, setError] = useState(null);
@@ -203,13 +201,12 @@ const ContactForm = () => {
     } else if (message === null) {
       setError(<Alert variant={'danger'}>Message Required</Alert>);
     } else {
-      const formData = new FormData();
-
-      formData.append('title', title);
-      formData.append('to_email', to_email);
-      formData.append('cc', cc_email);
-      formData.append('subject', subject);
-      formData.append('template', template);
+      const formData = {
+        access_key: 'e5594644-ae84-4f41-b4b3-3246b81eff07',
+        subject,
+        from_name: title,
+        name, email, mobile, topic: subjects, message,
+      };
 
       const headerConfig = {
         headers: {
@@ -217,7 +214,7 @@ const ContactForm = () => {
           'Content-Type': 'application/json'
         }
       };
-      const url = 'https://api.sendmail.adhyaynam.in/send-mail/two';
+      const url = 'https://api.web3forms.com/submit';
       axios
         .post(url, formData, headerConfig)
         .then((response) => {
