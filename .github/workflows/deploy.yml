@@ -21,11 +21,6 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
-        env:
-          NEXT_PUBLIC_BASE_PATH: /patel-nursing-home
-      - name: TEMPORARY - fix asset paths for preview address
-        run: |
-          find out -type f \( -name "*.html" -o -name "*.js" -o -name "*.css" -o -name "*.json" \) -exec perl -pi -e 's#(?<![A-Za-z0-9_.\-/])/(img|fonts|css)/#/patel-nursing-home/$1/#g' {} +
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out
