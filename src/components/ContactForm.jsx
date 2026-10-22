@@ -202,7 +202,7 @@ const ContactForm = () => {
       setError(<Alert variant={'danger'}>Message Required</Alert>);
     } else {
       const formData = {
-        access_key: 'e5594644-ae84-4f41-b4b3-3246b81eff07',
+        access_key: '0c03dcec-d887-484d-9309-dcfe9be7e580',
         subject,
         from_name: title,
         name, email, mobile, topic: subjects, message,
@@ -223,7 +223,7 @@ const ContactForm = () => {
           setSubjects(null);
           setMobile(null);
           setMessage(null);
-          router.push('/');
+          setError(<Alert variant="success">Thank you for contacting us, someone from our team will get back to you shortly.</Alert>);
         })
         .catch((error) => {
           console.log(error.response.data.detail);
