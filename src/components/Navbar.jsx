@@ -118,8 +118,6 @@ const Navbar = (props) => {
             <div>
               <NextLink title="pnhandheri@gmail.com " className="link-inverse" href="mailto:pnhandheri@gmail.com " />
               <br />
-              <NextLink href="tel:+919892056258" title="+91 98920 56258" />
-              <br />
               <SocialLinks />
             </div>
           </div>

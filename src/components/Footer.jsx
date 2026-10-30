@@ -60,10 +60,6 @@ const Footer = () => {
               <div className="d-flex">
                 <i className="uil uil-phone-volume fs-26 text-white" />
                 <p className="mt-1 ms-2 fs-18">
-                  <a href="tel:+919892056258" className="text-white">
-                    +91 98920 56258
-                  </a>
-                  <br />
                   <a href="tel:+919372459691" className="text-white">
                     +91 93724 59691
                   </a>

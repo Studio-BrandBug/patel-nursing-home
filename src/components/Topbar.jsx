@@ -21,8 +21,8 @@ const Topbar = () => {
           <div className="icon text-white fs-22 mt-1 me-2">
             <i className="uil uil-phone-volume"></i>
           </div>
-          <a href="tel:+919892056258" className="link-white hover ">
-            +91 98920 56258
+          <a href="tel:+919372459691" className="link-white hover ">
+            +91 93724 59691
           </a>
         </div>
 

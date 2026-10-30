@@ -381,8 +381,6 @@ const ContactForm = () => {
                 </div>
                 {/* <i className="uil uil-phone-volume fs-30 text-blue bg-white rounded-circle p-2" /> */}
                 <p className="fs-18 text-center mail">
-                  <a href="tel:+919892056258">+91 98920 56258</a>
-                  <br />
                   <a href="tel:+919372459691">+91 93724 59691</a>
                   <br />
                   <a href="tel:+919082099953">+91 90820 99953</a>
