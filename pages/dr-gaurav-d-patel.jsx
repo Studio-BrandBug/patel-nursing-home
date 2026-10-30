@@ -69,9 +69,9 @@ const DrGauravDPatel = () => {
               <h3 className="mb-1 fs-14 text-second text-uppercase ">Book an Appointment</h3>
               <h2 className="display-4 mb-3">Hospital's Timing</h2>
             </div>
-            <div className="row gx-md-15 gy-5  justify-content-center">
-              <div className="col-md-6 d-flex flex-column align-items-center">
-                <div className="card shadow-lg">
+            <div className="row gx-md-15 gx-lg-6 gy-5  justify-content-center">
+              <div className="col-lg-4 col-md-6 d-flex flex-column align-items-center">
+                <div className="card shadow-lg w-100 flex-grow-1">
                   <div className="card-body">
                     <h3 className="text-center">Bombay Hospital</h3>
                     <div className="d-flex mb-3 justify-content-center">
@@ -96,7 +96,7 @@ const DrGauravDPatel = () => {
                     <div className="d-flex flex-column align-items-center">
                       <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1909121.793419098!2d73.03474931270594!3d20.841658034282965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1e00d250293%3A0xfebacae0844e5091!2sBombay%20Hospital%20%26%20Medical%20Research%20Centre!5e0!3m2!1sen!2sin!4v1725017961449!5m2!1sen!"
-                        width="350"
+                        width="100%"
                         height="300"
                         className="border rounded"
                       ></iframe>
@@ -104,8 +104,8 @@ const DrGauravDPatel = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 d-flex flex-column align-items-center">
-                <div className="card shadow-lg ">
+              <div className="col-lg-4 col-md-6 d-flex flex-column align-items-center">
+                <div className="card shadow-lg w-100 flex-grow-1">
                   <div className="card-body">
                     <h3 className="text-center">Patel Nursing Home</h3>
                     <div className="d-flex mb-3 justify-content-center">
@@ -129,7 +129,40 @@ const DrGauravDPatel = () => {
                     <div className="d-flex flex-column align-items-center">
                       <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.7542958250783!2d72.84983707596743!3d19.11843198209491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c82d62b96a83%3A0x1823800a6fb31b0a!2sPatel%20Nursing%20Home!5e0!3m2!1sen!2sin!4v1724494549660!5m2!1sen!2sin"
-                        width="350"
+                        width="100%"
+                        height="300"
+                        className="border rounded"
+                      ></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 d-flex flex-column align-items-center">
+                <div className="card shadow-lg w-100 flex-grow-1">
+                  <div className="card-body">
+                    <h3 className="text-center">Holy Spirit Hospital</h3>
+                    <div className="d-flex mb-3 justify-content-center">
+                      <i className="uil uil-location-pin-alt fs-32 text-blue bg-white" />
+                      <address className="mt-2 ms-5">
+                        Mahakali Caves Rd, Sher E Punjab Colony, Andheri East, Mumbai, Maharashtra 400093.
+                      </address>
+                    </div>
+                    <div className="d-flex mb-3">
+                      <i className="uil uil-phone-volume fs-32 text-blue bg-white" />
+                      <p className="fs-18 text-center mail mt-2 ms-5">
+                        <a href="tel:+919372459691">+91 93724 59691</a>
+                        <br />
+                        <a href="tel:+919082099953">+91 90820 99953</a>
+                      </p>
+                    </div>
+                    <div className="d-flex mb-3 ">
+                      <i className="uil uil-clock fs-32 text-blue bg-white" />
+                      <p className="mt-2 ms-5">Tuesday To Friday - 3pm to 5pm.</p>
+                    </div>
+                    <div className="d-flex flex-column align-items-center">
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.3399419988805!2d72.86511800716137!3d19.127450765808305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c827a060a6bb%3A0x81664138aa674942!2sHoly%20Spirit%20Hospital%20%26%20Research%20Centre!5e0!3m2!1sen!2sin!4v1793346028142!5m2!1sen!2sin"
+                        width="100%"
                         height="300"
                         className="border rounded"
                       ></iframe>
