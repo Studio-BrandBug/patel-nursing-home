@@ -91,7 +91,7 @@ const DrGauravDPatel = () => {
                     </div>
                     <div className="d-flex mb-3">
                       <i className="uil uil-clock fs-32 text-blue bg-white" />
-                      <p className="mt-2 ms-5">Monday To Saturday - 10am to 2pm.</p>
+                      <p className="mt-2 ms-5" style={{ whiteSpace: 'nowrap', fontSize: 'clamp(0.75rem, 1.1vw, 0.9rem)' }}>Monday To Saturday - 10am to 2pm.</p>
                     </div>
                     <div className="d-flex flex-column align-items-center">
                       <iframe
@@ -124,7 +124,7 @@ const DrGauravDPatel = () => {
                     </div>
                     <div className="d-flex mb-3 ">
                       <i className="uil uil-clock fs-32 text-blue bg-white" />
-                      <p className="mt-2 ms-5">Monday To Saturday - 5pm to 7:30pm.</p>
+                      <p className="mt-2 ms-5" style={{ whiteSpace: 'nowrap', fontSize: 'clamp(0.75rem, 1.1vw, 0.9rem)' }}>Monday To Saturday - 5pm to 7:30pm.</p>
                     </div>
                     <div className="d-flex flex-column align-items-center">
                       <iframe
@@ -157,7 +157,7 @@ const DrGauravDPatel = () => {
                     </div>
                     <div className="d-flex mb-3 ">
                       <i className="uil uil-clock fs-32 text-blue bg-white" />
-                      <p className="mt-2 ms-5">Tuesday To Friday - 3pm to 5pm.</p>
+                      <p className="mt-2 ms-5" style={{ whiteSpace: 'nowrap', fontSize: 'clamp(0.75rem, 1.1vw, 0.9rem)' }}>Tuesday To Friday - 3pm to 5pm.</p>
                     </div>
                     <div className="d-flex flex-column align-items-center">
                       <iframe
