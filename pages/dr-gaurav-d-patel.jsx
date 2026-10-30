@@ -84,9 +84,7 @@ const DrGauravDPatel = () => {
                     <div className="d-flex mb-3 ">
                       <i className="uil uil-phone-volume fs-32 text-blue bg-white" />
                       <p className="fs-18 text-center mail mt-2 ms-5">
-                        <a href="tel:+919372459691">+91 93724 59691</a>
-                        <br />
-                        <a href="tel:+919082099953">+91 90820 99953</a>
+                        <a href="tel:+919833350597">+91 98333 50597</a>
                       </p>
                     </div>
                     <div className="d-flex mb-3">
@@ -150,9 +148,7 @@ const DrGauravDPatel = () => {
                     <div className="d-flex mb-3">
                       <i className="uil uil-phone-volume fs-32 text-blue bg-white" />
                       <p className="fs-18 text-center mail mt-2 ms-5">
-                        <a href="tel:+919372459691">+91 93724 59691</a>
-                        <br />
-                        <a href="tel:+919082099953">+91 90820 99953</a>
+                        <a href="tel:+919892056258">+91 98920 56258</a>
                       </p>
                     </div>
                     <div className="d-flex mb-3 ">
